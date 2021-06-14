@@ -12,3 +12,20 @@ int main()
 
     return 0;
 }
+    
+ 
+    
+Write a C++ Program to find the product of two numbers entered by the User
+   
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double firstNumber, secondNumber, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
+    cin >> firstNumber >> secondNumber;
+    productOfTwoNumbers = firstNumber * secondNumber;  
+    cout << "Product = " << productOfTwoNumbers;    
+    return 0;
+}
